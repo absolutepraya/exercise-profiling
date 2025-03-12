@@ -1,11 +1,11 @@
 package com.advpro.profiling.tutorial.repository;
 
-import com.advpro.profiling.tutorial.model.Student;
-import com.advpro.profiling.tutorial.model.StudentCourse;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
+import com.advpro.profiling.tutorial.model.StudentCourse;
 
 /**
  * @author muhammad.khadafi
